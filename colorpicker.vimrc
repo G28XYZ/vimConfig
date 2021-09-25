@@ -1,0 +1,3 @@
+nnoremap § :VCoolor<CR>
+
+
