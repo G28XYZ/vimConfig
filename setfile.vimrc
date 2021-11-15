@@ -6,7 +6,7 @@ set tabstop=2
 set shiftwidth=2
 set smarttab
 set expandtab "Ставим табы пробелами
-set softtabstop=2 "4 пробела в табе
+set softtabstop=2 "2 пробела в табе
 " Автоотступ
 set autoindent
 " Подсвечиваем все что можно подсвечивать
@@ -38,8 +38,8 @@ set backspace=indent,eol,start whichwrap+=<,>,[,]
 " Вырубаем черточки на табах
 set showtabline=1
 " Переносим на другую строчку, разрываем строки
-set wrap
-set linebreak
+" set wrap
+" set linebreak
 
 " Вырубаем .swp и ~ (резервные) файлы
 set nobackup
@@ -58,8 +58,17 @@ autocmd FileType apache setlocal commentstring=#\ %s
 set encoding=UTF-8
 set termwinscroll=40000
 
+
+" " Highlight cursor line underneath the cursor horizontally.
+" set cursorline
+
+" " Highlight cursor line underneath the cursor vertically.
+" set cursorcolumn
+
+nnoremap <c-s> :w <CR>
 set list
-set lcs+=space:‧,eol:⁣
+" set lcs+=space:‧,eol:⁣
+set lcs+=space:‧,eol:⤸,tab:>-,trail:~,extends:>,precedes:<
 let g:indentLine_color_term = 60
 let g:indentLine_char = 'c'
 let g:indentLine_char_list = ['|']

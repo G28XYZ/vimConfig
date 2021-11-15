@@ -29,4 +29,6 @@ source /Users/royalfly/Documents/vimconfig/repeat.vimrc
 source /Users/royalfly/Documents/vimconfig/better-css-syntax.vimrc
 source /Users/royalfly/Documents/vimconfig/terminal.vimrc
 source /Users/royalfly/Documents/vimconfig/commentary.vimrc
+source /Users/royalfly/Documents/vimconfig/js-beautife.vimrc
+source /Users/royalfly/Documents/vimconfig/bracey.vimrc
 "}}}

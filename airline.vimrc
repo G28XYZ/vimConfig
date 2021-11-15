@@ -7,8 +7,12 @@ let g:airline#extensions#tabline#ignore_bufadd_pat='!|defx|gundo|nerd_tree|start
 let g:airline#extensions#term#enabled = 0
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline_section_b = '%{strftime("%c")}'
-let g:airline_sction_y = 'BN: %{bufnr("%")}'
-let g:airline_theme = 'dark'
+let g:airline_section_y = 'BN: %{bufnr("%")}'
+
+set showtabline=2
+set laststatus=2
+
+let g:airline_theme = 'badwolf'
 
 let g:airline_filetype_overrides = {
       \ 'coc-explorer':  [ 'CoC Explorer', '' ],

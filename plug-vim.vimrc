@@ -18,6 +18,11 @@ Plug 'bagrat/vim-buffet'
 Plug 'AndrewRadev/tagalong.vim' " авторекдтор тегов в html
 Plug 'makerj/vim-pdf'
 Plug 'erietz/vim-terminator'
+Plug 'alvan/vim-closetag' " Automatic tag closing
+Plug 'Badacadabra/vim-archery'
+Plug 'jaredgorski/spacecamp'
+Plug 'bluz71/vim-moonfly-colors'
+Plug 'phanviet/vim-monokai-pro'
 
 call plug#end()
 

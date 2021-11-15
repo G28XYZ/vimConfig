@@ -30,5 +30,6 @@ Plugin 'tpope/vim-repeat'
 Plugin 'zoubin/vim-gotofile'
 Plugin 'Yggdroot/indentLine'
 Plugin 'turbio/bracey.vim'
+Plugin 'maksimr/vim-jsbeautify'
 call vundle#end()
 filetype plugin indent on

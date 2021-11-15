@@ -1,6 +1,6 @@
 set guifont=FiraCode\ Nerd\ Font:h16
 "set background=NONE
 
-colorscheme spaceduck
-
+" colorscheme blacksea
+colorscheme Revolution
 let g:airlinetheme = 'dark'
