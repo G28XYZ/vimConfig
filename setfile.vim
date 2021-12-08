@@ -65,13 +65,19 @@ set termwinscroll=40000
 " " Highlight cursor line underneath the cursor vertically.
 " set cursorcolumn
 
+" скрыть символ тильда
+hi! link EndOfBuffer Ignore
+set fillchars+=eob:⁣
+
+" горячие клавиши для команды сохранить
 nnoremap <c-s> :w <CR>
+
 set list
 " set lcs+=space:‧,eol:⁣
 set lcs+=space:‧,eol:⤸,tab:>-,trail:~,extends:>,precedes:<
 let g:indentLine_color_term = 60
 let g:indentLine_char = 'c'
-let g:indentLine_char_list = ['|']
+let g:indentLine_char_list = ['❘']
 
 " For moving lines (^] is a special character; use <M-k> and <M-j> if it works)
 nnoremap <C-k> mz:m-2<CR>`z==
@@ -80,3 +86,7 @@ nnoremap <C-k> mz:m-2<CR>`z==
 vnoremap <C-j> :m'>+<CR>gv=`<my`>mzgv`yo`z
 nnoremap <C-j> mz:m+<CR>`z==
 vnoremap <C-k> :m'<-2<CR>gv=`>my`<mzgv`yo`z
+
+" назначить команду вернуться назад на ctrl+z
+nnoremap <c-z> :u<CR>      " Avoid using this**
+inoremap <c-z> <c-o>:u<CR>

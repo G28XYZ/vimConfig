@@ -23,6 +23,13 @@ Plug 'Badacadabra/vim-archery'
 Plug 'jaredgorski/spacecamp'
 Plug 'bluz71/vim-moonfly-colors'
 Plug 'phanviet/vim-monokai-pro'
+Plug 'haishanh/night-owl.vim'
+Plug 'ghifarit53/tokyonight-vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'pangloss/vim-javascript'
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
