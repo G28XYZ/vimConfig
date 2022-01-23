@@ -20,11 +20,23 @@ autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
 " В .py файлах включаем умные отступы после ключевых слов
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 
-autocmd InsertEnter * set cul
-autocmd InsertLeave * set nocul
+" autocmd InsertEnter * set cul
+" autocmd InsertLeave * set nocul
 
- let &t_SI = "\e[6 q"
- let &t_EI = "\e[2 q"
+"Mode Settings cursor shape
+
+let &t_SI.="\e[6 q" "SI = INSERT mode
+let &t_SR.="\e[6 q" "SR = REPLACE mode
+let &t_EI.="\e[4 q" "EI = NORMAL mode (ELSE)
+
+"Cursor shape settings:
+
+"  1 -> blinking block
+"  2 -> solid block 
+"  3 -> blinking underscore
+"  4 -> solid underscore
+"  5 -> blinking vertical bar
+"  6 -> solid vertical bar
 
 syntax on "Включить подсветку синтаксиса
 set number "Включаем нумерацию строк
@@ -57,7 +69,6 @@ autocmd FileType apache setlocal commentstring=#\ %s
 
 set encoding=UTF-8
 set termwinscroll=40000
-
 
 " " Highlight cursor line underneath the cursor horizontally.
 " set cursorline

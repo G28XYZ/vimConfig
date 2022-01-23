@@ -12,13 +12,13 @@ let g:NERDTreeDirArrowExpandable = '›'
 " let g:NERDTreeDirArrowCollapsible = '⤷'
 let g:NERDTreeDirArrowCollapsible = '⌄'
 let g:NERDTreeGitStatusIndicatorMapCustom = {
-                \ 'Modified'  :'✎',
+                \ 'Modified'  :'⊕',
                 \ 'Staged'    :'✚',
-                \ 'Untracked' :'□',
+                \ 'Untracked' :'⊖',
                 \ 'Renamed'   :'➜',
                 \ 'Unmerged'  :'═',
                 \ 'Deleted'   :'✖',
-                \ 'Dirty'     :'✗',
+                \ 'Dirty'     :'⦿',
                 \ 'Ignored'   :'☒',
                 \ 'Clean'     :'✔',
                 \ 'Unknown'   :'?',

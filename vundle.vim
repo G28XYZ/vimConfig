@@ -11,7 +11,7 @@ Plugin 'prettier/vim-prettier', {
             \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte','yaml', 'html'] }
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
-Plugin 'vim-syntastic/syntastic'
+Plugin 'vim-syntastic/syntastic' " линтер кода на ошибки и предупрежения
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'pineapplegiant/spaceduck'
 Plugin 'flazz/vim-colorschemes'
@@ -33,6 +33,10 @@ Plugin 'itchyny/vim-gitbranch'
 Plugin 'itchyny/lightline.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'puremourning/vimspector'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'digitaltoad/vim-pug'
 
 call vundle#end()
 filetype plugin indent on
