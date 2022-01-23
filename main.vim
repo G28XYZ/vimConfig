@@ -32,4 +32,5 @@ source /Users/royalfly/Documents/vimconfig/commentary.vim
 source /Users/royalfly/Documents/vimconfig/js-beautife.vim
 source /Users/royalfly/Documents/vimconfig/bracey.vim
 source /Users/royalfly/Documents/vimconfig/jsvim.vim
+source /Users/royalfly/Documents/vimconfig/vimspector.vim
 "}}}
